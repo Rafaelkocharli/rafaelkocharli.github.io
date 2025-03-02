@@ -1,1 +1,75 @@
-Самая минималистичная страница портфолио. Автор не добавил даже ссылок...
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="intro_block">
+        <div class="intro_block__photo">
+          <img src="/assets/images/myPhoto.png" alt="it's me" />
+        </div>
+        <div class="intro_block__info">
+          <div class="intro_block__name">
+            Hi, I am <span>Rafael Kocharli</span>
+          </div>
+          <img src="/assets/svg/blur1.svg" alt="blur" />
+          <div class="intro_block__speciality">Frontend Developer</div>
+        </div>
+        <div class="intro_block__social_networks">
+          <div class="intro_block__icon">
+            <img src="/assets/svg/github.svg" alt="github icon" />
+          </div>
+          <div class="intro_block__icon">
+            <img src="/assets/svg/linkedin.svg" alt="linkedin icon" />
+          </div>
+          <div class="intro_block__icon">
+            <img src="/assets/svg/telegram.svg" alt="telegram icon" />
+          </div>
+          <div class="intro_block__icon">
+            <img src="/assets/svg/mail.svg" alt="mail icon" />
+          </div>
+        </div>
+        <div class="intro_block__contact_buttons">
+          <button class="primary_button">Contact me</button>
+          <button class="secondary_button">Download CV</button>
+        </div>
+      </div>
+      <div class="about_me_block">
+        <h1>About me</h1>
+        <div class="about_me_block__photo">
+          <img src="/assets/images/myphoto2.png" alt="it's me playing chess" />
+        </div>
+        <div class="about_me_block__text" id="aboutMe">
+          <p></p>
+          <br />
+          <p></p>
+          <br />
+          <p></p>
+        </div>
+      </div>
+      <div class="projects_block"></div>
+      <div class="contact_me_block">
+        <h1>Contact me</h1>
+        <form action="/">
+          <input type="text" placeholder="name" />
+          <input type="text" placeholder="email" />
+          <select>
+            <option value="">Service Of Interest</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+          <textarea placeholder="Details"></textarea>
+          <button class="secondary_button">Send</button>
+        </form>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
