@@ -55,20 +55,52 @@
       <div class="contact_me_block">
         <h1>Contact me</h1>
         <form action="/">
-          <input type="text" placeholder="name" />
-          <input type="text" placeholder="email" />
-          <select>
-            <option value="">Service Of Interest</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+          <input type="text" placeholder="name" required />
+          <input type="text" placeholder="email" required />
+          <select required>
+            <option value="" disabled selected>Service Of Interest</option>
+            <option value="html-css">Website markup (HTML/CSS)</option>
+            <option value="responsive">
+              Responsive and cross-browser markup
+            </option>
+            <option value="ui-ux">User interface development (UI/UX)</option>
+            <option value="spa">
+              Single Page Application (SPA) development
+            </option>
+            <option value="react">React.js development</option>
+            <option value="optimization">
+              Website performance optimization
+            </option>
+            <option value="pwa">Progressive Web App (PWA) development</option>
+            <option value="other">Other</option>
           </select>
           <textarea placeholder="Details"></textarea>
           <button class="secondary_button">Send</button>
         </form>
       </div>
-      <div class="footer"></div>
+      <div class="footer">
+        <div class="footer__header">Rafael Kocharli</div>
+        <div class="footer__social_networks">
+          <div class="footer__icon">
+            <img src="/assets/svg/github.svg" alt="github icon" />
+          </div>
+          <div class="footer__icon">
+            <img src="/assets/svg/linkedin.svg" alt="linkedin icon" />
+          </div>
+          <div class="footer__icon">
+            <img src="/assets/svg/telegram.svg" alt="telegram icon" />
+          </div>
+          <div class="footer__icon">
+            <img src="/assets/svg/mail.svg" alt="mail icon" />
+          </div>
+        </div>
+        <p>rafaelkocharli@gmail.com</p>
+        <p>+7 (968) 384-53-63</p>
+        <p>
+          &copy; 2025 Rafael Kocharli. <br />
+          All rights reserved.
+        </p>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
